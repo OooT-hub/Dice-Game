@@ -12,8 +12,8 @@ int main(){
     to=dice1+dice2;
     printf("Rolling dice...\nDie 1: %d\nDie 2: %d\nTotal value: %d\n",dice1,dice2,to);
     if (to>7){
-        printf("You won\n");
+        printf("%s won\n",name);
     }else{
-        printf("You lost\n");
+        printf("%s lost\n",name);
     }
 }
